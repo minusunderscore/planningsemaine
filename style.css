@@ -34,3 +34,11 @@ body {
     transform: scale(1.1);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+
+@media (max-width: 600px) {  
+    .semaineint, .semainext {
+        max-width: 95%; /* Le cadre occupe presque tout l'écran */
+        padding: 15px; /* Réduire l'espace intérieur */
+        font-size: 14px; /* Réduire la taille du texte */
+    }
+}
